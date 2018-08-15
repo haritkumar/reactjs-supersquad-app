@@ -1,4 +1,3 @@
-import character_json from "../data/characters.json";
 import {ADD_CHARACTER} from "../actions";
 import {createCharacter} from "./helper";
 
