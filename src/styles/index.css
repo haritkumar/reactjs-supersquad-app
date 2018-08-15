@@ -1,9 +1,11 @@
 body{
-    background-image: url('../assets/background.jpg');
+    background-image: url('../assets/background.png');
     height: 100%;
     background-size: cover;
     background-repeat: none;
     opacity: 0.8;
+    color:rgb(10, 63, 63);
+    font-weight: bold;
 }
 .App{
     text-align: center;
