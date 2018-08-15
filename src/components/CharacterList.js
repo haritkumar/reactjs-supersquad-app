@@ -8,15 +8,15 @@ class CharacterList extends Component{
         console.log('this.props',this.props);
         return(
             <div>
-                <h2>Characters</h2>
-                <ul>
+                <h3>Characters</h3>
+                <ul className='list-group'>
                     {
                         this.props.characters.map(
                             character =>{
                                 return (
-                                    <li key={character.id}>
-                                        {character.name}
-                                        <div onClick={() => this.props.addCharacterById(character.id)}>+</div>
+                                    <li key={character.id} className='list-group-item'>
+                                        <div className='list-item'>{character.name}</div>
+                                        <div className='list-item right-button' onClick={() => this.props.addCharacterById(character.id)}>+</div>
                                     </li>
                                 )
                             }
