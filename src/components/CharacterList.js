@@ -5,7 +5,7 @@ import { addCharacterById} from '../actions';
 
 class CharacterList extends Component{
     render(){
-        console.log('this.props',this.props);
+        console.log('character this.props',this.props);
         return(
             <div>
                 <h3>CHARACTERS</h3>
@@ -30,7 +30,7 @@ class CharacterList extends Component{
 
 //Maps value from store to component's props
 function mapStateToProps(state){
-    console.log('state',state);
+    console.log('character state',state);
     return {
         characters: state.characters
     };
