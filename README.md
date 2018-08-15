@@ -1,4 +1,4 @@
-- Demo application using reactjs and redux
+## Demo application using reactjs and redux
 ```sh
 npm install
 
